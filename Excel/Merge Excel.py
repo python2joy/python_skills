@@ -1,5 +1,3 @@
-
-#将多个Excel文件合并成一个
 import xlrd
 import xlsxwriter
 
@@ -60,4 +58,3 @@ if __name__=='__main__':
             ws.write(a,b,c)
     wb1.close()
     print("文件合并完成")
-
